@@ -1,11 +1,16 @@
 import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
 import img2 from "../../assets/images/img2.jpg"
+import {Link} from "react-router-dom";
+import { BrowserRouter as Router, Switch,
+    Route, Redirect,} from "react-router-dom";
+import {blue} from "@mui/material/colors";
 
-function TVCard() {
+function ProductsCard() {
     return (
         <div style={{ display :"block"}}>
         <div className="container-card" style={{display: "flex", justifyContent: "space-around", margin: "10px"}}>
             <>
+
                 <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
                     <CardMedia
                         component="img"
@@ -23,11 +28,11 @@ function TVCard() {
                             species, ranging across all continents except Antarctica
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <Button size="small">Click</Button>
+
+                    <CardActions >
+                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                     </CardActions>
                 </Card>
-
             </>
 
             <>
@@ -49,8 +54,8 @@ function TVCard() {
                             species, ranging across all continents except Antarctica
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <Button size="small">Click</Button>
+                    <CardActions >
+                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                     </CardActions>
                 </Card>
 
@@ -73,8 +78,8 @@ function TVCard() {
                             species, ranging across all continents except Antarctica
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <Button size="small">Click</Button>
+                    <CardActions >
+                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                     </CardActions>
                 </Card>
             </>
@@ -97,8 +102,8 @@ function TVCard() {
                             species, ranging across all continents except Antarctica
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <Button size="small">Click</Button>
+                    <CardActions >
+                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                     </CardActions>
                 </Card>
             </>
@@ -125,8 +130,8 @@ function TVCard() {
                                 species, ranging across all continents except Antarctica
                             </Typography>
                         </CardContent>
-                        <CardActions>
-                            <Button size="small">Click</Button>
+                        <CardActions >
+                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                         </CardActions>
                     </Card>
 
@@ -151,8 +156,8 @@ function TVCard() {
                                 species, ranging across all continents except Antarctica
                             </Typography>
                         </CardContent>
-                        <CardActions>
-                            <Button size="small">Click</Button>
+                        <CardActions >
+                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                         </CardActions>
                     </Card>
 
@@ -175,8 +180,8 @@ function TVCard() {
                                 species, ranging across all continents except Antarctica
                             </Typography>
                         </CardContent>
-                        <CardActions>
-                            <Button size="small">Click</Button>
+                        <CardActions >
+                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                         </CardActions>
                     </Card>
                 </>
@@ -199,8 +204,8 @@ function TVCard() {
                                 species, ranging across all continents except Antarctica
                             </Typography>
                         </CardContent>
-                        <CardActions>
-                            <Button size="small">Click</Button>
+                        <CardActions >
+                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                         </CardActions>
                     </Card>
                 </>
@@ -216,4 +221,4 @@ function TVCard() {
     )
 }
 
-export default TVCard;
+export default ProductsCard;

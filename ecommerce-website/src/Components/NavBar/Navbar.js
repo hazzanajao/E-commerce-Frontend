@@ -1,10 +1,9 @@
 import React, {useEffect, useState, useRef} from "react"
 import {FaBars} from "react-icons/fa"
-
-
 import "../../assets/images/logo.svg"
-import Styles from "../Styles/main.css"
+import main from "../../main.css"
 import logo from "../../assets/images/logo.svg"
+import BaseInput from "../BaseInput/BaseInput";
 
 const Navbar = () => {
     const [showNavLinks, setShowNavLinks] = useState(false);
@@ -33,24 +32,55 @@ const Navbar = () => {
                     </button>
                 </div>
 
+                <div className="nav-header-search">
+                    <BaseInput/>
+                    <button className="nav-toggle" onClick={() => setShowNavLinks(!showNavLinks)}><FaBars/></button>
+
+                </div>
+
                 <div className="links-container" ref={linksContainerRef}>
                     <ul className="links"
                         ref={navRef}>
+
                         <li>
-                            <a href="/">Home</a>
-                        </li>
+                        <div style={{display: "flex", border:"1px solid white"}}>
+                            <a href="/">
+                                Home
+                            </a>
+                        </div>
+                    </li>
+
                         <li>
-                            <a href="/about">About</a>
+                            <div style={{display: "flex", border:"1px solid white"}}>
+                            <a href="/">
+                                Fin
+                            </a>
+                             <a href="/">
+                                Eng
+                            </a>
+                              </div>
                         </li>
+
+
                         <li>
-                            <a href="/service">Service</a>
+                            <div style={{display: "flex",border:"1px solid white"}}>
+                                <a href="/about">
+                                    User
+                                </a>
+
+                                <a href="/about">
+                                    Admin
+                                </a>
+                            </div>
+
                         </li>
+
                         <li>
-                            <a href="/service">Blog</a>
+                            <div style={{display: "flex",border:"1px solid white"}}>
+                            <a href="/service">Shopping</a>
+                            </div>
                         </li>
-                        <li>
-                            <a href="/contact">Contact</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
