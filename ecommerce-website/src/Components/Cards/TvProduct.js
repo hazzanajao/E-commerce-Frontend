@@ -137,8 +137,8 @@ function TvProduct(props){
                 {/*Right for Product display */}
 
                 <Grid item xs={3} >
-                    <Item style={{textAlign:"left"}}><br/> <br/>
-                     <h3 >€540</h3>
+                    <Item style={{textAlign:"left"}}><br/><br/>
+                        <h3 style={{backgroundColor:"red", padding :"8px", borderRadius:"63px"}}><strong>€540</strong></h3>
                         <br/>
                         <p >FREE delivery, on <strong>Mondays</strong> and <strong>Wednesday</strong> within Finland,for evey first Order</p>
                         <p style={{color:"green"}}> In Stock </p>
