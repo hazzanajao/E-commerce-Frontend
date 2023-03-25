@@ -7,6 +7,7 @@ import About from "./Components/About/About"
 import Layout from "./Components/Layout/Layout";
 import TvProduct from "./Components/Cards/TvProduct";
 import SignupForm from "./Components/SignupForm/SignupForm";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
       <>
@@ -20,6 +21,7 @@ function App() {
                   <Route path="/signupform" element={<SignupForm/>}/>
               </Routes>
           </BrowserRouter>
+          <Footer/>
       </>
   );
 }

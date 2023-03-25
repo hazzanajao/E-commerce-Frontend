@@ -146,6 +146,7 @@ nav {
 .footer-date{
     background: var(--clr-grey-1);
     color: white;
+    text-align: center;
 }
 .nav-header {
     display: flex;
@@ -209,6 +210,9 @@ li {  margin: 5px;}
     background: var(--clr-primary-8);
     color: var(--clr-primary-5);
     padding-left: 1.5rem;
+}
+.form-label{
+    text-align: left;
 }
 .social-icons {
     display: none;

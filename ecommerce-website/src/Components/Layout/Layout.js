@@ -54,15 +54,7 @@ function Layout(){
 
             </Grid>
 
-            <Grid container spacing={1}>
-                <Grid item xs={12}>
-                    <Item>
 
-                        <Footer/>
-
-                    </Item>
-                </Grid>
-            </Grid>
 
         </Box>
     )

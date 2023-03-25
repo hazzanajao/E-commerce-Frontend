@@ -8,6 +8,7 @@ import {Card, CardActions, CardContent, CardMedia, Typography} from "@mui/materi
 import img2 from "../../assets/images/img2.jpg";
 import {Slide} from "react-slideshow-image";
 import img3 from "../../assets/images/img3.jpg";
+import ProductQuantitySelection from "../Selection/ProductQuantitySelection";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -21,7 +22,13 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 
-function TvProduct(){
+function TvProduct(props){
+
+    const productInfo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus mauris a lacinia bibendum.Phasellus mattis, nibh id tempus dictum, leo ligula posuere nunc, quis imperdiet magna eros id nulla.\\n\" +\n" +
+        "                                 Sed non pellentesque erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut laoreet leo neque, eget euismod arcu elementum id. Proin fermentum blandit leo,\\n\" +\n" +
+        "                                 ut lacinia leo pellentesque nec. In eu finibus nulla, sed fringilla ligula. Mauris mollis augue atefficitur mollis. Donec ultricies urna vitae ultricies pulvinar. Mauris pulvinar placerat mi pulvinar varius.\\n\" +\n" +
+        "                                 Donec quis sollicitudin ex. Aliquam imperdiet augue augue, non laoreet tellus molestie vel. Duis eget gravida nulla\"  "
+
 
     return(
         <>
@@ -118,10 +125,7 @@ function TvProduct(){
                             Item Package Quantity	1<br/><br/>
                             <strong>About this item</strong>
 
-
-
-
-
+                             <p>{productInfo}</p>
 
                         </p>
 
@@ -132,9 +136,14 @@ function TvProduct(){
 
                 {/*Right for Product display */}
 
-                <Grid item xs={3}>
-                    <Item>
-
+                <Grid item xs={3} >
+                    <Item style={{textAlign:"left"}}><br/> <br/>
+                     <h3 >€540</h3>
+                        <br/>
+                        <p >FREE delivery, on <strong>Mondays</strong> and <strong>Wednesday</strong> within Finland,for evey first Order</p>
+                        <p style={{color:"green"}}> In Stock </p>
+                        {/*Placing ProductQuantitySelection component here*/}
+                        <ProductQuantitySelection/>
 
                     </Item>
                 </Grid>
