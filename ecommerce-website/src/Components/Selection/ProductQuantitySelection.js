@@ -43,7 +43,7 @@ function ProductQuantitySelection(){
                                 borderRadius:"63px",
                                 borderShadow:"0 0 4px black"
                             }} >Add to Basket</button>
-
+                    <a href="/signupform" >
                     <button className="secondary" type="cancel"
                             style={{padding:"8px",
                                 backgroundColor:"gold",
@@ -55,6 +55,7 @@ function ProductQuantitySelection(){
                             }}
 
                     >Buy Now</button>
+                    </a>
                     <br/>
                 </button>
             </FormControl>

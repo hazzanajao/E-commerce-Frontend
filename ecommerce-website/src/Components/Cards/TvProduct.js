@@ -138,7 +138,10 @@ function TvProduct(props){
 
                 <Grid item xs={3} >
                     <Item style={{textAlign:"left"}}><br/><br/>
-                        <h3 style={{backgroundColor:"red", padding :"8px", borderRadius:"63px"}}><strong>€540</strong></h3>
+                        <h3 style={{backgroundColor:"gold", padding :"8px",textAlign:"center" ,  borderRadius:"63px", display:"flex"}}>
+                            <strong style={{flex:"start", width:"100%"}}>€540</strong>
+                            <strong style={{flex:"right",color:"red", width:"100%"}}>€540</strong>
+                        </h3>
                         <br/>
                         <p >FREE delivery, on <strong>Mondays</strong> and <strong>Wednesday</strong> within Finland,for evey first Order</p>
                         <p style={{color:"green"}}> In Stock </p>
@@ -146,7 +149,27 @@ function TvProduct(props){
                         <ProductQuantitySelection/>
 
                     </Item>
+
+                      <br/>
+
+                        <Item style={{textAlign:"left"}}><br/><br/>
+                            <h3 style={{backgroundColor:"gold", padding :"8px",textAlign:"center" ,  borderRadius:"63px", display:"flex"}}>
+                                <strong style={{flex:"start", width:"100%"}}>€540</strong>
+                                <strong style={{flex:"right",color:"red", width:"100%"}}>€540</strong>
+                            </h3>
+                            <br/>
+                            <p >FREE delivery, on <strong>Mondays</strong> and <strong>Wednesday</strong> within Finland,for evey first Order</p>
+                            <p style={{color:"green"}}> In Stock </p>
+                            {/*Placing ProductQuantitySelection component here*/}
+                            <ProductQuantitySelection/>
+
+                        </Item>
+
+
+
                 </Grid>
+
+
             </Grid>
         </>
     )
