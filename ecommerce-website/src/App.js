@@ -6,7 +6,7 @@ import Home from"./Components/Home/Home";
 import About from "./Components/About/About"
 import Layout from "./Components/Layout/Layout";
 import TvProduct from "./Components/Cards/TvProduct";
-
+import SignupForm from "./Components/SignupForm/SignupForm";
 function App() {
   return (
       <>
@@ -17,6 +17,7 @@ function App() {
                   <Route path="/index" element={<Home/>}/>
                   <Route path="/about" element={<About/>}/>
                   <Route path="/tvproduct" element={<TvProduct/>}/>
+                  <Route path="/signupform" element={<SignupForm/>}/>
               </Routes>
           </BrowserRouter>
       </>

@@ -64,7 +64,7 @@ const Navbar = () => {
 
                         <li>
                             <div style={{display: "flex",border:"1px solid white"}}>
-                                <a href="/about">
+                                <a href="/signupform">
                                     User
                                 </a>
 
