@@ -23,15 +23,10 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 
-function TvProduct(props){
+function ComputerProduct(props){
 
-    const data = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus mauris a lacinia " +
-        "bibendum.Phasellus mattis, nibh id tempus dictum, leo ligula posuere nunc, quis imperdiet magna eros id nulla." +
-        "Sed non pellentesque erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis" +
-        " egestas. Ut laoreet leo neque, eget euismod arcu elementum id. Proin fermentum blandit leo,ut lacinia leo " +
-        "pellentesque nec. In eu finibus nulla, sed fringilla ligula. Mauris mollis augue atefficitur mollis. Donec " +
-        "ultricies urna vitae ultricies pulvinar. Mauris pulvinar placerat mi pulvinar varius.Donec quis sollicitudin " +
-        "ex. Aliquam imperdiet augue augue, non laoreet tellus molestie vel. Duis eget gravida null"
+    const Computer_data = "This computer  has core i7 processor, it is suitable for all complex computational analysis" +
+        "This computer is has core i7 processor, it is suitable for all complex computational analysis."
 
 
     return(
@@ -81,7 +76,7 @@ function TvProduct(props){
                                 />
                             </Card>
                         </div>
-
+                        <br/>
                         <div> Side D
                             <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
                                 <CardMedia
@@ -129,7 +124,7 @@ function TvProduct(props){
                             Item Package Quantity	1<br/><br/>
                             <strong>About this item</strong>
 
-                             <p>{props.data}</p>
+                             <p>{Computer_data}</p>
 
                         </p>
 
@@ -172,4 +167,4 @@ function TvProduct(props){
     )
 }
 
-export default TvProduct
+export default ComputerProduct

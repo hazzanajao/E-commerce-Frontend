@@ -5,9 +5,10 @@ import Navbar from "./Components/NavBar/Navbar";
 import Home from"./Components/Home/Home";
 import About from "./Components/About/About"
 import Layout from "./Components/Layout/Layout";
-import TvProduct from "./Components/Cards/TvProduct";
+import ComputerProduct from "./Components/Cards/ComputerProduct";
 import SignupForm from "./Components/SignupForm/SignupForm";
 import Footer from "./Components/Footer/Footer";
+
 function App() {
   return (
       <>
@@ -17,7 +18,7 @@ function App() {
                   <Route path="/" element={<Layout />}/>
                   <Route path="/index" element={<Home/>}/>
                   <Route path="/about" element={<About/>}/>
-                  <Route path="/tvproduct" element={<TvProduct/>}/>
+                  <Route path="/tvproduct" element={<ComputerProduct/>}/>
                   <Route path="/signupform" element={<SignupForm/>}/>
               </Routes>
           </BrowserRouter>

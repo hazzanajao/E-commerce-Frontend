@@ -1,16 +1,27 @@
 import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
 import img2 from "../../assets/images/img2.jpg"
-import {Link} from "react-router-dom";
-import { BrowserRouter as Router, Switch,
-    Route, Redirect,} from "react-router-dom";
-import {blue} from "@mui/material/colors";
+import OLEDTV from "../../assets/images/OLEDTV.PNG"
+import Iphones from "../../assets/images/Iphones.PNG"
+import Ipads from "../../assets/images/Ipads.PNG"
+import ComputerProduct from "./ComputerProduct";
 
 function ProductsCard() {
+    {/*This is the parent component I want to dynamically pass data to children components:
+       Computer_data, Tv_data, Phone_data etc. To demonstrate knowledge acquired.
+    */}
+    const Computer_data = "This computer  has core i7 processor, it is suitable for all complex computational analysis" +
+        "This computer is has core i7 processor, it is suitable for all complex computational analysis. "
+
+    const Tv_data = "This is  OLED flat screen computer, is an all purpose display unit suitable for cinema and ads purposes  "
+
+    const Phone_data = "This is a dual sim mobile phone with unlimited broad band connectivity suitable for browsing, graphic design and photography. "
+
+    const Ipad_data = "Our Ipads are design for commercial applications with Quad-core processor, it is suitable for all complex computational analysis."
+
     return (
         <div style={{ display :"block"}}>
         <div className="container-card" style={{display: "flex", justifyContent: "space-around", margin: "10px"}}>
             <>
-
                 <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
                     <CardMedia
                         component="img"
@@ -24,8 +35,7 @@ function ProductsCard() {
                             Computers
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            {Computer_data}
                         </Typography>
                     </CardContent>
 
@@ -43,15 +53,14 @@ function ProductsCard() {
                         alt="green iguana"
                         height="140"
                         image=""
-                        src={img2}
+                        src={OLEDTV}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             TVs
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            {Tv_data}
                         </Typography>
                     </CardContent>
                     <CardActions >
@@ -67,15 +76,14 @@ function ProductsCard() {
                         alt="green iguana"
                         height="140"
                         image=""
-                        src={img2}
+                        src={Iphones}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Phones
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            {Phone_data}
                         </Typography>
                     </CardContent>
                     <CardActions >
@@ -91,15 +99,14 @@ function ProductsCard() {
                         alt="green iguana"
                         height="140"
                         image=""
-                        src={img2}
+                        src={Ipads}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Ipads
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            {Ipad_data}
                         </Typography>
                     </CardContent>
                     <CardActions >
@@ -113,6 +120,7 @@ function ProductsCard() {
 
             <div className="container-card" style={{display: "flex", justifyContent: "space-around", margin: "10px"}}>
                 <>
+
                     <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
                         <CardMedia
                             component="img"
@@ -122,19 +130,18 @@ function ProductsCard() {
                             src={img2}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center"}}>
+                            <Typography gutterBottom variant="h5" component="div">
                                 Computers
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                {Computer_data}
                             </Typography>
                         </CardContent>
+
                         <CardActions >
                             <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
                         </CardActions>
                     </Card>
-
                 </>
 
                 <>
@@ -145,15 +152,14 @@ function ProductsCard() {
                             alt="green iguana"
                             height="140"
                             image=""
-                            src={img2}
+                            src={OLEDTV}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center"}}>
+                            <Typography gutterBottom variant="h5" component="div">
                                 TVs
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                {Tv_data}
                             </Typography>
                         </CardContent>
                         <CardActions >
@@ -169,15 +175,14 @@ function ProductsCard() {
                             alt="green iguana"
                             height="140"
                             image=""
-                            src={img2}
+                            src={Iphones}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center"}}>
+                            <Typography gutterBottom variant="h5" component="div">
                                 Phones
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                {Phone_data}
                             </Typography>
                         </CardContent>
                         <CardActions >
@@ -193,15 +198,14 @@ function ProductsCard() {
                             alt="green iguana"
                             height="140"
                             image=""
-                            src={img2}
+                            src={Ipads}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center"}}>
+                            <Typography gutterBottom variant="h5" component="div">
                                 Ipads
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                {Ipad_data}
                             </Typography>
                         </CardContent>
                         <CardActions >
