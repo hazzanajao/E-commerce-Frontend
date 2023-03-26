@@ -47,8 +47,10 @@ function SignupForm(props) {
     return (
         <Grid container spacing={1}>
 
-            <Grid item xs={6} ><br/>
+            <Grid item xs={6} >
+                <br/><br/><br/>
                 <Item>
+                    <br/>
                     <h3><strong>Sign Up</strong></h3>
                             <div className="signup-form"  style={{  justifyItem: "space-around", margin: "10px"}}>
                                 <form style={{ padding:"20px", width:"100%"}}>
@@ -101,8 +103,9 @@ function SignupForm(props) {
 
             </Grid>
 
-            <Grid item xs={6} ><br/>
-            <Item>
+            <Grid item xs={6} >
+                <br/><br/><br/>
+            <Item><br/>
                 <h3><strong>Login </strong></h3>
                 <div className="signup-form"  style={{  justifyItem: "space-around", margin: "10px"}}>
                     <form style={{ padding:"20px", width:"100%"}}>
@@ -130,7 +133,7 @@ function SignupForm(props) {
                                         border:"hidden",
                                         margin:"2px",
                                         borderShadow:"0 0 4px black"
-                                    }} >Signup</button>
+                                    }} >Login</button>
                             <button className="secondary" type="cancel"
                                     style={{padding:"8px",
                                         backgroundColor:"red",
@@ -147,8 +150,10 @@ function SignupForm(props) {
                     </form>
                 </div>
             </Item>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
             </Grid>
         </Grid>
+
     )
 
 }
