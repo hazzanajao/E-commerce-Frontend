@@ -9,16 +9,16 @@ products : [
         name: "Lenovo Computer",
         description: "This is core i7 computer, suitable for high computational analysis",
         categories: "Computer",
-        variant: " Available in all colors : Black, Silver and White ",
+        variant: "Available in all colors : Black, Silver and White",
         size : "15 inches"
     },
 
     ]
 }
 
-const productReducer = (state, {type, playload} ) => {
+const productReducer = (state =initialState, {type, playload} ) => {
     switch (type){
-        case ActionTypes.SET_PRODUCTS :
+        case ActionTypes.SET_PRODUCTS:
            return state;
         default:
             return state;
