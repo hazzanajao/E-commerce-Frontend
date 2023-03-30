@@ -2,8 +2,8 @@ import React from "react"
 import {Card, CardMedia} from "@mui/material";
 import img2 from "../../assets/images/img2.jpg";
 import Grid from "@mui/material/Grid";
-import ProductList from "../ProductList/ProductList";
-import ProductsCard from "../Cards/ProductsCard";
+import ProductTable from "../ProductListTable/ProductTable";
+import ProductsCard from "../ProductCategory/ProductsCard";
 import {styled} from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import ProductSlider from "../ProductSlider/ProductSlider";
@@ -24,6 +24,7 @@ function SignupForm(props) {
     const [email, setEmail] = React.useState('')
     const [password, setPassword] = React.useState('')
     const [rePassword, setRePassword] = React.useState('')
+
     function handleNameChange(event) {
         const {value} = event.target
         setName(value)

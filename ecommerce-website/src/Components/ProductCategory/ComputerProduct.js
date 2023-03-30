@@ -1,5 +1,5 @@
 import Grid from "@mui/material/Grid";
-import ProductList from "../ProductList/ProductList";
+import ProductTable from "../ProductListTable/ProductTable";
 import ProductsCard from "./ProductsCard";
 import React from "react";
 import {styled} from "@mui/material/styles";
@@ -10,7 +10,7 @@ import {Slide} from "react-slideshow-image";
 import img3 from "../../assets/images/img3.jpg";
 import ProductQuantitySelection from "../Selection/ProductQuantitySelection";
 import TvProductTechDetail from "../TechnicalDetails/TvProductTechDetail";
-import productsCards from "../Cards/ProductsCard"
+import productsCards from ".//ProductsCard"
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'white',

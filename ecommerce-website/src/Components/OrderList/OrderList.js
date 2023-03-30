@@ -3,33 +3,35 @@ import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";
 import { setProducts } from "../../Redux/actions/productActions";
 import AllProducts from "../AllProducts/AllProducts";
+import {setOrders} from "../Redux/actions/orderAction";
+import AllOrders from "../Components/AllOrders/AllOrders";
 
-function ProductList(){
+function OrderList(){
 
     const dispatch = useDispatch();
-    const products = useSelector((state) => state.allProducts.products);
+    const orders = useSelector((state) => state.allOrders.orders);
 
 
-    const fetchProducts = async () => {
+    const fetchOrders = async () => {
         const response = await axios
-            .get("http://localhost:3000/products.json")
+            .get("http://localhost:3000/order.json")
             .catch((err) => {
                 console.log("Err: ", err)
             })
-        dispatch(setProducts(response.data));
+        dispatch(setOrders(response.data));
     }
 
     useEffect(() => {
-        fetchProducts();
+        fetchOrders();
     }, []);
 
-    console.log("Products : ", products)
+    console.log("Orders : ", orders)
 
     return (
         <div className="container">
-            <AllProducts />
+            <AllOrders />
         </div>
     )
 }
 
-export default ProductList;
+export default OrderList;

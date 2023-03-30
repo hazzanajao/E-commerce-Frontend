@@ -15,38 +15,45 @@ function ProductTable(){
             <nav aria-label="main mailbox folders" style={{backgroundColor: 'white'}}>
                 <List>
 
-                    <ListItem disablePadding>
+
+
                         <ListItemButton>
                             <ListItemIcon>
                                 <InboxIcon />
                             </ListItemIcon>
                             <ListItemText primary="ELECTRONICS" />
                         </ListItemButton>
-                    </ListItem>
 
+                    <a href="/productList">
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Phones" />
                         </ListItemButton>
                     </ListItem>
+                    </a>
 
+                    <a href="/productList">
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Phones Accessories" />
                         </ListItemButton>
                     </ListItem>
+                    </a>
 
+                    <a href="/productList">
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Computers" />
                         </ListItemButton>
                     </ListItem>
+                    </a>
 
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Computer Accessories" />
                         </ListItemButton>
                     </ListItem>
+
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Power Banks" />

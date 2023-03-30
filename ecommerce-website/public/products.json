@@ -1,125 +1,64 @@
 [
 
   {
-    "name":"lenovo",
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
+    "name":"Lenovo",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"computer",
+    "variants":"silver",
+    "sizes":"14 inches"
   },
   {
 
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
+    "name":"Mac Pro",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"computer",
+    "variants":"silver",
+    "sizes":"18 inches"
   },
   {
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
+    "name":"Dell",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"computer",
+    "variants":"silver",
+    "sizes":"20 inches"
   },
   {
 
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
+    "name":"Samsung",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"computer",
+    "variants":"silver",
+    "sizes":"22 inches"
   },
   {
-    name:'Computer',
-    description: '',
-    price:'...',
-    category:'...',
-    variants:'...',
-    sizes:'...'
+    "name":"Samsung Galaxy",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"I Pad",
+    "variants":"silver",
+    "sizes":"10 inches"
   },
   {
 
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
+    "name":"IPhone",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"8 inches"
   },
   {
 
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
+    "name":"OnePlus",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"6 inches"
   },
   {
 
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-  {
-
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-  {
-
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-  {
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-  {
-
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-  {
-
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-  {
-    name:'lenovo',
-    description: 'This computer  has core i7 processor, it is suitable for all complex computational analysis',
-    price:700,
-    category:'computer',
-    variants:'silver',
-    sizes:'14 inches'
-  },
-
+    "name":"Nokia",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"11 inches"
+  }
 ]

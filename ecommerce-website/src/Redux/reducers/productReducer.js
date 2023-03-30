@@ -1,27 +1,29 @@
 /* Reducer will always take the initial assigned state and actions*/
 
-import ActionTypes from "../constants/action-types";
+import {ActionTypes} from "../constants/action-types";
 
 const initialState = {
-products : [
-    {
-        id:1,
-        name: "Lenovo Computer",
-        description: "This is core i7 computer, suitable for high computational analysis",
-        categories: "Computer",
-        variant: "Available in all colors : Black, Silver and White",
-        size : "15 inches"
-    },
-
-    ]
+products : [ ]
 }
 
-const productReducer = (state =initialState, {type, playload} ) => {
+export const productReducer = (state =initialState, {type, payload} ) => {
     switch (type){
         case ActionTypes.SET_PRODUCTS:
-           return state;
+            return { ...state, products: payload };
         default:
             return state;
     }
 }
-export default productReducer;
+
+const selectedProductsReducer = (state = {}, { type, payload }) => {
+    console.log(type);
+    switch (type) {
+        case ActionTypes.SELECTED_PRODUCT:
+            return { ...state, ...payload };
+        case ActionTypes.REMOVE_SELECTED_PRODUCT:
+            return {};
+        default:
+            return state;
+    }
+}
+export default selectedProductsReducer;

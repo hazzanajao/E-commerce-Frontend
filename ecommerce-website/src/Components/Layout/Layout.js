@@ -1,14 +1,14 @@
-import  React from 'react';
-import { styled } from '@mui/material/styles';
+import React from 'react';
+import {styled} from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import ProductsCard from "../Cards/ProductsCard";
-import ProductList from "../ProductList/ProductList";
+import ProductsCard from "../ProductCategory/ProductsCard";
+import ProductTable from "../ProductListTable/ProductTable";
 import ProductSlider from "../ProductSlider/ProductSlider";
 import Footer from "../Footer/Footer"
 
-const Item = styled(Paper)(({ theme }) => ({
+const Item = styled(Paper)(({theme}) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'white',
     ...theme.typography.body2,
     padding: theme.spacing(0.5),
@@ -16,11 +16,11 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
 }));
 
-function Layout(){
+function Layout() {
 
 
-    return(
-        <Box sx={{ flexGrow: 1 }}>
+    return (
+        <Box sx={{flexGrow: 1}}>
 
             <Grid container spacing={1}>
                 <Grid item xs={12}>
@@ -31,14 +31,18 @@ function Layout(){
                     </Item>
                 </Grid>
             </Grid>
+            <br/>
+            <h3 style={{textAlign: "center"}}> CATEGORIES
+                <a href="/productlist"
+                   style={{backgroundColor: "#F0A04B",marginLeft:"5px", borderRadius: "0", padding: "5px", color: "white"}}> ALL </a>
 
-                    <h3 style={{textAlign:"center"}}> Categories</h3>
-
+            </h3>
+            <br/>
             <Grid container spacing={1}>
                 {/*left for side selections */}
                 <Grid item xs={2}>
                     <Item>
-                       <ProductList/>
+                        <ProductTable/>
                     </Item>
                 </Grid>
 
@@ -47,7 +51,7 @@ function Layout(){
                 <Grid item xs={10}>
                     <Item>
 
-                       <ProductsCard/>
+                        <ProductsCard/>
 
                     </Item>
                 </Grid>
@@ -55,8 +59,8 @@ function Layout(){
             </Grid>
 
 
-
         </Box>
     )
 }
+
 export default Layout;
