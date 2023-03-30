@@ -22,7 +22,7 @@ function Layout() {
     return (
         <Box sx={{flexGrow: 1}}>
 
-            <Grid container spacing={1}>
+            <Grid container spacing={1} className="grid-slider">
                 <Grid item xs={12}>
                     <Item>
 
@@ -31,16 +31,14 @@ function Layout() {
                     </Item>
                 </Grid>
             </Grid>
-            <br/>
-            <h3 style={{textAlign: "center"}}> CATEGORIES
-                <a href="/productlist"
-                   style={{backgroundColor: "#F0A04B",marginLeft:"5px", borderRadius: "0", padding: "5px", color: "white"}}> ALL </a>
 
-            </h3>
             <br/>
-            <Grid container spacing={1}>
+            <h3 style={{textAlign: "center"}}> CATEGORIES </h3>
+
+            <br/>
+            <Grid container spacing={1} className="grid-table">
                 {/*left for side selections */}
-                <Grid item xs={2}>
+                <Grid item xs={2} className="grid-productTable">
                     <Item>
                         <ProductTable/>
                     </Item>
@@ -48,7 +46,7 @@ function Layout() {
 
                 {/*Right for Product display */}
 
-                <Grid item xs={10}>
+                <Grid item xs={10} className="grid-productCard">
                     <Item>
 
                         <ProductsCard/>

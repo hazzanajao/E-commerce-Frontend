@@ -9,6 +9,8 @@ import SignupForm from "./Components/SignupForm/SignupForm";
 import Footer from "./Components/Footer/Footer";
 import ProductList from"./Components/ProductList/ProductList";
 import AllProducts from "./Components/AllProducts/AllProducts";
+import AllOrders from "./Components/AllOrders/AllOrders";
+import OrderList from "./Components/OrderList/OrderList";
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
                   <Route path="/signupform" element={<SignupForm/>}/>
                   <Route path="/productList" element={<ProductList/>}/>
                   <Route path="/allproducts" element={<AllProducts/>}/>
+                  <Route path="/allorders" element={<AllOrders/>}/>
+                  <Route path="/orderList" element={<OrderList/>}/>
               </Routes>
           </BrowserRouter>
           <Footer/>

@@ -1,0 +1,34 @@
+[
+
+  {
+    "productId" : "1",
+    "userId" : "1",
+    "purchasedAt" : "Helsinki, at 12:01pm, 10:05:2023"
+  },
+  {
+    "productId" : "2",
+    "userId" : "1",
+    "purchasedAt" : "Helsinki, at 12:01pm, 10:05:2023"
+  },
+  {
+    "productId" : "2",
+    "userId" : "1",
+    "purchasedAt" : "Helsinki, at 12:01pm, 10:05:2023"
+  },
+  {
+    "productId" : "3",
+    "userId" : "2",
+    "purchasedAt" : "Helsinki, at 12:01pm, 10:05:2023"
+  },
+  {
+    "productId" : "1",
+    "userId" : "4",
+    "purchasedAt" : "Helsinki, at 12:01pm, 10:05:2023"
+  },
+  {
+    "productId" : "1",
+    "userId" : "6",
+    "purchasedAt" : "Helsinki, at 12:01pm, 10:05:2023"
+  }
+
+  ]

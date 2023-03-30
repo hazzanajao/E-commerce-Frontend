@@ -234,6 +234,10 @@ li {  margin: 5px;}
     .links a {padding: 0;margin: 0 0.5rem;}
     .links a:hover {padding: 0;background: transparent;}
     .container-home {display: inline-block; width: 100% }
+    .grid-table{display:inline-block; width:100%}
+    .grid-productCard{display:inline-block; width:100%}
+    .grid-productTable{display:inline-block; width:100%}
+
 }
 
 

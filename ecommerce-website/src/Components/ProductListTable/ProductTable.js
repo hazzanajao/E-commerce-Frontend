@@ -32,7 +32,7 @@ function ProductTable(){
                     </ListItem>
                     </a>
 
-                    <a href="/productList">
+                    <a href="/orderList">
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Phones Accessories" />

@@ -60,5 +60,37 @@
     "category":"Phone",
     "variants":"silver",
     "sizes":"11 inches"
+  },
+  {
+
+    "name":"OnePlus",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"6 inches"
+  },
+  {
+
+    "name":"Nokia",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"11 inches"
+  },
+  {
+
+    "name":"OnePlus",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"6 inches"
+  },
+  {
+
+    "name":"Nokia",
+    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "category":"Phone",
+    "variants":"silver",
+    "sizes":"11 inches"
   }
 ]

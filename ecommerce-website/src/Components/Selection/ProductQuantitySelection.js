@@ -4,10 +4,12 @@ import Select, {  SelectChangeEvent} from "@mui/material/Select";
 import Box from "@mui/material/Box";
 
 function ProductQuantitySelection(){
+
     const [quantity, setQuantity] = React.useState('')
 
     const handleChange = (event: SelectChangeEvent) =>{
         setQuantity(event.target.value )
+
     }
 
 
@@ -42,7 +44,9 @@ function ProductQuantitySelection(){
                                 margin:"2px",
                                 borderRadius:"63px",
                                 borderShadow:"0 0 4px black"
-                            }} >Add to Basket</button>
+                            }} >Add to Basket
+                    </button>
+
                     <a href="/signupform" >
                     <button className="secondary" type="cancel"
                             style={{padding:"8px",
@@ -52,9 +56,8 @@ function ProductQuantitySelection(){
                                 margin:"2px",
                                 borderRadius:"63px",
                                 borderShadow:"0 0 4px black"
-                            }}
-
-                    >Buy Now</button>
+                            }}>Buy Now
+                    </button>
                     </a>
                     <br/>
                 </button>

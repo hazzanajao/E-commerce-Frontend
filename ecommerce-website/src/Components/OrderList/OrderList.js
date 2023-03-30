@@ -3,8 +3,8 @@ import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";
 import { setProducts } from "../../Redux/actions/productActions";
 import AllProducts from "../AllProducts/AllProducts";
-import {setOrders} from "../Redux/actions/orderAction";
-import AllOrders from "../Components/AllOrders/AllOrders";
+import {setOrders} from "../../Redux/actions/orderAction";
+import AllOrders from "../AllOrders/AllOrders";
 
 function OrderList(){
 
