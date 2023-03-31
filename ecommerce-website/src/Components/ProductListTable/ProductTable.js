@@ -14,9 +14,6 @@ function ProductTable(){
         <Box sx={{ width: '100%', maxWidth: 360, }}>
             <nav aria-label="main mailbox folders" style={{backgroundColor: 'white'}}>
                 <List>
-
-
-
                         <ListItemButton>
                             <ListItemIcon>
                                 <InboxIcon />
@@ -24,29 +21,29 @@ function ProductTable(){
                             <ListItemText primary="ELECTRONICS" />
                         </ListItemButton>
 
-                    <a href="/productList">
+
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Phones" />
                         </ListItemButton>
                     </ListItem>
-                    </a>
 
-                    <a href="/orderList">
+
+
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Phones Accessories" />
                         </ListItemButton>
                     </ListItem>
-                    </a>
 
-                    <a href="/productList">
+
+
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Computers" />
                         </ListItemButton>
                     </ListItem>
-                    </a>
+
 
                     <ListItem disablePadding>
                         <ListItemButton>
@@ -84,12 +81,6 @@ function ProductTable(){
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Power Banks" />
-                        </ListItemButton>
-                    </ListItem>
-
-                    <ListItem disablePadding>
-                        <ListItemButton>
-                            <ListItemText primary="Ipads" />
                         </ListItemButton>
                     </ListItem>
 

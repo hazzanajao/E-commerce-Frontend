@@ -11,6 +11,8 @@ import ProductList from"./Components/ProductList/ProductList";
 import AllProducts from "./Components/AllProducts/AllProducts";
 import AllOrders from "./Components/AllOrders/AllOrders";
 import OrderList from "./Components/OrderList/OrderList";
+import Cart from "./Components/Cart/Cart";
+import Admin from "./Components/Dashboard/Admin";
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
                   <Route path="/allproducts" element={<AllProducts/>}/>
                   <Route path="/allorders" element={<AllOrders/>}/>
                   <Route path="/orderList" element={<OrderList/>}/>
+                  <Route path="/cart" element={<Cart/>} />
+                  <Route path="/admin" element={<Admin/>} />
               </Routes>
           </BrowserRouter>
           <Footer/>

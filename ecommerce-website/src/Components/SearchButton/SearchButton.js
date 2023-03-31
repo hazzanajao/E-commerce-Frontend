@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 function SearchButton(){
 
     return(
-        <IconButton className="Search" type="button" sx={{ p: '10px' }} aria-label="search">
+        <IconButton className="Search" type="button" sx={{ p: '10px',  }} aria-label="search">
 
             <SearchIcon/>
 

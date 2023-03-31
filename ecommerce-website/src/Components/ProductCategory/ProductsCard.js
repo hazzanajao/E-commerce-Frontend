@@ -19,7 +19,7 @@ function ProductsCard() {
     const Ipad_data = "Our Ipads are design for commercial applications with Quad-core processor, it is suitable for all complex computational analysis."
 
     return (
-        <div style={{ display :"block"}}>
+
         <div className="container-card" style={{display: "flex", justifyContent: "space-around", margin: "10px"}}>
             <>
                 <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
@@ -116,107 +116,6 @@ function ProductsCard() {
             </>
 
             <br></br>
-        </div>
-
-            <div className="container-card" style={{display: "flex", justifyContent: "space-around", margin: "10px"}}>
-                <>
-
-                    <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
-                        <CardMedia
-                            component="img"
-                            alt="green iguana"
-                            height="140"
-                            image=""
-                            src={img2}
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Computers
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                {Computer_data}
-                            </Typography>
-                        </CardContent>
-
-                        <CardActions >
-                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
-                        </CardActions>
-                    </Card>
-                </>
-
-                <>
-
-                    <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
-                        <CardMedia
-                            component="img"
-                            alt="green iguana"
-                            height="140"
-                            image=""
-                            src={OLEDTV}
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                TVs
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                {Tv_data}
-                            </Typography>
-                        </CardContent>
-                        <CardActions >
-                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
-                        </CardActions>
-                    </Card>
-
-                </>
-                <>
-                    <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
-                        <CardMedia
-                            component="img"
-                            alt="green iguana"
-                            height="140"
-                            image=""
-                            src={Iphones}
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Phones
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                {Phone_data}
-                            </Typography>
-                        </CardContent>
-                        <CardActions >
-                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
-                        </CardActions>
-                    </Card>
-                </>
-
-                <>
-                    <Card sx={{maxWidth: 360, margin: "5px", textAlign: "left"}}>
-                        <CardMedia
-                            component="img"
-                            alt="green iguana"
-                            height="140"
-                            image=""
-                            src={Ipads}
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Ipads
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                {Ipad_data}
-                            </Typography>
-                        </CardContent>
-                        <CardActions >
-                            <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
-                        </CardActions>
-                    </Card>
-                </>
-
-                <br></br>
-            </div>
-
 
 </div>
 

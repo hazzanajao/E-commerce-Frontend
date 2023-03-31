@@ -9,7 +9,7 @@ import Paper from "@mui/material/Paper";
 import ProductSlider from "../ProductSlider/ProductSlider";
 
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'white',
+    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'lightblue',
     ...theme.typography.body2,
     padding: theme.spacing(0.5),
     textAlign: 'center',
@@ -46,10 +46,8 @@ function SignupForm(props) {
     }
 
     return (
-        <Grid container spacing={1}>
-
-            <Grid item xs={6} >
-                <br/><br/><br/>
+        <Grid  spacing={1} className="grid-form" style={{display:"inline-flex", width:"100%"}}>
+            <Grid item style={{width:"100%", padding:"10px"}} className="grid-signup-form" >
                 <Item>
                     <br/>
                     <h3><strong>Sign Up</strong></h3>
@@ -104,8 +102,7 @@ function SignupForm(props) {
 
             </Grid>
 
-            <Grid item xs={6} >
-                <br/><br/><br/>
+            <Grid item style={{width:"100%", padding:"10px"}} className="grid-login-form" >
             <Item><br/>
                 <h3><strong>Login </strong></h3>
                 <div className="signup-form"  style={{  justifyItem: "space-around", margin: "10px"}}>
