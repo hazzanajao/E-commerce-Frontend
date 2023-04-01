@@ -48,9 +48,9 @@ function Cart() {
 
                 <div>
                     <div className="product-info">
-                        <h3 className="product-name">Name</h3>
-                        <h3 className="product-price">Price</h3>
-                        <h3 className="product-quantity">Quantity</h3>
+                        <h3 className="product-title">Product</h3>
+                        <h3 className="price">Price</h3>
+                        <h3 className="quantity">Quantity</h3>
                         <h3 className="total">Total</h3>
                     </div>
                     <div className="cart-items">
