@@ -26,7 +26,7 @@ function ProductList(){
     console.log("Products : ", products)
 
     return (
-        <div className="container">
+        <div className="product-container">
             <AllProducts />
         </div>
     )

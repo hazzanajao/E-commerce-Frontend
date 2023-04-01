@@ -2,6 +2,7 @@
 
   {
     "name":"Lenovo",
+    "price":"550",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"computer",
     "variants":"silver",
@@ -10,6 +11,7 @@
   {
 
     "name":"Mac Pro",
+    "price":"1250",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"computer",
     "variants":"silver",
@@ -17,6 +19,7 @@
   },
   {
     "name":"Dell",
+    "price":"450",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"computer",
     "variants":"silver",
@@ -25,6 +28,7 @@
   {
 
     "name":"Samsung",
+    "price":"570",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"computer",
     "variants":"silver",
@@ -32,6 +36,7 @@
   },
   {
     "name":"Samsung Galaxy",
+    "price":"250",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"I Pad",
     "variants":"silver",
@@ -40,6 +45,7 @@
   {
 
     "name":"IPhone",
+    "price":"750",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",
@@ -48,6 +54,7 @@
   {
 
     "name":"OnePlus",
+    "price":"520",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",
@@ -56,6 +63,7 @@
   {
 
     "name":"Nokia",
+    "price":"340",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",
@@ -64,6 +72,7 @@
   {
 
     "name":"OnePlus",
+    "price":"250",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",
@@ -72,6 +81,7 @@
   {
 
     "name":"Nokia",
+    "price":"220",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",
@@ -80,6 +90,7 @@
   {
 
     "name":"OnePlus",
+    "price":"570",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",
@@ -88,6 +99,7 @@
   {
 
     "name":"Nokia",
+    "price":"580",
     "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
     "category":"Phone",
     "variants":"silver",

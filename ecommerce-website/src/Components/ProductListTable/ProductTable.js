@@ -8,23 +8,24 @@ import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import InboxIcon from '@mui/icons-material/Inbox';
 import DraftsIcon from '@mui/icons-material/Drafts';
+import {Avatar} from "@mui/material";
 
 function ProductTable(){
     return(
         <Box sx={{ width: '100%', maxWidth: 360, }}>
             <nav aria-label="main mailbox folders" style={{backgroundColor: 'white'}}>
                 <List>
-                        <ListItemButton>
+                        <ListItemButton style={{ background:'#0B2447', color:'white'}}>
                             <ListItemIcon>
-                                <InboxIcon />
+                                <Avatar src="/broken-image.jpg" />
                             </ListItemIcon>
-                            <ListItemText primary="ELECTRONICS" />
+                            <ListItemText primary="Browse Our Products" />
                         </ListItemButton>
 
 
                     <ListItem disablePadding>
                         <ListItemButton>
-                            <ListItemText primary="Phones" />
+                            <ListItemText primary="All Products" />
                         </ListItemButton>
                     </ListItem>
 

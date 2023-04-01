@@ -36,7 +36,7 @@ function ProductQuantitySelection(){
 
                 <button className="signup-buttons"style={{padding:"12px", borderRadius:"15px", border:"hidden"}} >
 
-                    <button className="primary" type="signup"
+                    {/*  <button className="primary" type="signup"
                             style={{padding:"8px",
                                 backgroundColor:"green",
                                 color:"white",
@@ -46,8 +46,8 @@ function ProductQuantitySelection(){
                                 borderShadow:"0 0 4px black"
                             }} >Add to Basket
                     </button>
-
-                    <a href="/signupform" >
+                    */}
+                    <a href="/productlist" >
                     <button className="secondary" type="cancel"
                             style={{padding:"8px",
                                 backgroundColor:"gold",
