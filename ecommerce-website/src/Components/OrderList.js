@@ -1,17 +1,16 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";
-import { setProducts } from "../../Redux/actions/productActions";
-import AllProducts from "../AllProducts/AllProducts";
-import {setOrders} from "../../Redux/actions/orderAction";
-import AllOrders from "../AllOrders/AllOrders";
 
-function OrderList(){
+import setOrders from "../Redux/actions/orderAction";
+import AllOrders from "./AllOrders";
+
+function OrderList() {
 
     const dispatch = useDispatch();
     const orders = useSelector((state) => state.allOrders.orders);
 
-
+    { /*Avoid using useEffect */}
     const fetchOrders = async () => {
         const response = await axios
             .get("http://localhost:3000/order.json")
@@ -25,11 +24,14 @@ function OrderList(){
         fetchOrders();
     }, []);
 
+    { /*Implementation without useEffect */}
+
+
     console.log("Orders : ", orders)
 
     return (
         <div className="container">
-            <AllOrders />
+            <AllOrders/>
         </div>
     )
 }

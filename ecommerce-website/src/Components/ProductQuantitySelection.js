@@ -1,20 +1,20 @@
 import React from "react";
 import {FormControl, InputLabel, MenuItem} from "@mui/material";
-import Select, {  SelectChangeEvent} from "@mui/material/Select";
+import Select, {SelectChangeEvent} from "@mui/material/Select";
 import Box from "@mui/material/Box";
 
-function ProductQuantitySelection(){
+function ProductQuantitySelection() {
 
     const [quantity, setQuantity] = React.useState('')
 
-    const handleChange = (event: SelectChangeEvent) =>{
-        setQuantity(event.target.value )
+    const handleChange = (event: SelectChangeEvent) => {
+        setQuantity(event.target.value)
 
     }
 
 
     return (
-        <Box sx={{ minWidth: 120 }} className="QuantitySelection">
+        <Box sx={{minWidth: 120}} className="QuantitySelection">
             <FormControl fullWidth>
                 <InputLabel id="select-label">Qty</InputLabel>
                 <Select
@@ -34,7 +34,12 @@ function ProductQuantitySelection(){
                     <MenuItem value={8}>8</MenuItem>
                 </Select>
 
-                <button className="signup-buttons"style={{padding:"12px", borderRadius:"15px", border:"hidden"}} >
+                <button className="signup-buttons"
+                        style={{
+                            padding: "12px",
+                            borderRadius: "15px",
+                            border: "hidden"
+                        }}>
 
                     {/*  <button className="primary" type="signup"
                             style={{padding:"8px",
@@ -47,17 +52,18 @@ function ProductQuantitySelection(){
                             }} >Add to Basket
                     </button>
                     */}
-                    <a href="/productlist" >
-                    <button className="secondary" type="cancel"
-                            style={{padding:"8px",
-                                backgroundColor:"gold",
-                                color:"black",
-                                border:"hidden",
-                                margin:"2px",
-                                borderRadius:"63px",
-                                borderShadow:"0 0 4px black"
-                            }}>Buy Now
-                    </button>
+                    <a href="/productlist">
+                        <button className="secondary" type="cancel"
+                                style={{
+                                    padding: "8px",
+                                    backgroundColor: "gold",
+                                    color: "black",
+                                    border: "hidden",
+                                    margin: "2px",
+                                    borderRadius: "63px",
+                                    borderShadow: "0 0 4px black"
+                                }}>Buy Now
+                        </button>
                     </a>
                     <br/>
                 </button>
@@ -66,4 +72,5 @@ function ProductQuantitySelection(){
         </Box>
     )
 }
+
 export default ProductQuantitySelection;

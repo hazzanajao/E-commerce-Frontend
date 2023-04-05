@@ -1,22 +1,24 @@
-import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
-import img2 from "../../assets/images/img2.jpg"
-import OLEDTV from "../../assets/images/OLEDTV.PNG"
-import Iphones from "../../assets/images/Iphones.PNG"
-import Ipads from "../../assets/images/Ipads.PNG"
-import ComputerProduct from "./ComputerProduct";
+import {Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
+import img2 from "../assets/images/img2.jpg"
+import OLEDTV from "../assets/images/OLEDTV.PNG"
+import Iphones from "../assets/images/Iphones.PNG"
+import Ipads from "../assets/images/Ipads.PNG"
 
 function ProductsCard() {
     {/*This is the parent component I want to dynamically pass data to children components:
-       Computer_data, Tv_data, Phone_data etc. To demonstrate knowledge acquired.
-    */}
-    const Computer_data = "This computer  has core i7 processor, it is suitable for all complex computational analysis" +
+       computerData, Tv_data, Phone_data etc. To demonstrate knowledge acquired.
+
+       Intention: As Home Page Directories
+    */
+    }
+    const computerData = "This computer  has core i7 processor, it is suitable for all complex computational analysis" +
         "This computer is has core i7 processor, it is suitable for all complex computational analysis. "
 
-    const Tv_data = "This is  OLED flat screen computer, is an all purpose display unit suitable for cinema and ads purposes  "
+    const tvData = "This is  OLED flat screen computer, is an all purpose display unit suitable for cinema and ads purposes  "
 
-    const Phone_data = "This is a dual sim mobile phone with unlimited broad band connectivity suitable for browsing, graphic design and photography. "
+    const phoneData = "This is a dual sim mobile phone with unlimited broad band connectivity suitable for browsing, graphic design and photography. "
 
-    const Ipad_data = "Our Ipads are design for commercial applications with Quad-core processor, it is suitable for all complex computational analysis."
+    const ipadData = "Our Ipads are design for commercial applications with Quad-core processor, it is suitable for all complex computational analysis."
 
     return (
 
@@ -35,12 +37,17 @@ function ProductsCard() {
                             Computers
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            {Computer_data}
+                            {computerData}
                         </Typography>
                     </CardContent>
 
-                    <CardActions >
-                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
+                    <CardActions>
+                        <a href="/tvproduct" style={{
+                            backgroundColor: "green",
+                            borderRadius: "5px",
+                            padding: "8px",
+                            color: "white"
+                        }}>Click</a>
                     </CardActions>
                 </Card>
             </>
@@ -60,11 +67,16 @@ function ProductsCard() {
                             TVs
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            {Tv_data}
+                            {tvData}
                         </Typography>
                     </CardContent>
-                    <CardActions >
-                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
+                    <CardActions>
+                        <a href="/tvproduct" style={{
+                            backgroundColor: "green",
+                            borderRadius: "5px",
+                            padding: "8px",
+                            color: "white"
+                        }}>Click</a>
                     </CardActions>
                 </Card>
 
@@ -83,11 +95,16 @@ function ProductsCard() {
                             Phones
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            {Phone_data}
+                            {phoneData}
                         </Typography>
                     </CardContent>
-                    <CardActions >
-                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
+                    <CardActions>
+                        <a href="/tvproduct" style={{
+                            backgroundColor: "green",
+                            borderRadius: "5px",
+                            padding: "8px",
+                            color: "white"
+                        }}>Click</a>
                     </CardActions>
                 </Card>
             </>
@@ -106,19 +123,23 @@ function ProductsCard() {
                             Ipads
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            {Ipad_data}
+                            {ipadData}
                         </Typography>
                     </CardContent>
-                    <CardActions >
-                        <a href="/tvproduct" style={{backgroundColor:"green",borderRadius:"5px", padding:"8px", color:"white"}}>Click</a>
+                    <CardActions>
+                        <a href="/tvproduct" style={{
+                            backgroundColor: "green",
+                            borderRadius: "5px",
+                            padding: "8px",
+                            color: "white"
+                        }}>Click</a>
                     </CardActions>
                 </Card>
             </>
 
             <br></br>
 
-</div>
-
+        </div>
 
 
     )

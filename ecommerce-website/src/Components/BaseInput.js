@@ -1,7 +1,7 @@
 import React from "react";
 
 import InputBase from '@mui/material/InputBase';
-import SearchButton from "../SearchButton/SearchButton";
+import SearchButton from "./SearchButton";
 
 function BaseInput(){
 

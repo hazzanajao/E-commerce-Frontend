@@ -1,18 +1,18 @@
 import React from "react"
 import {BrowserRouter, Routes, Route, Link, Redirect} from "react-router-dom"
 import './main.css';
-import Navbar from "./Components/NavBar/Navbar";
-import Home from"./Components/Home/Home";
-import Layout from "./Components/Layout/Layout";
-import ComputerProduct from "./Components/ProductCategory/ComputerProduct";
-import SignupForm from "./Components/SignupForm/SignupForm";
-import Footer from "./Components/Footer/Footer";
-import ProductList from"./Components/ProductList/ProductList";
-import AllProducts from "./Components/AllProducts/AllProducts";
-import AllOrders from "./Components/AllOrders/AllOrders";
-import OrderList from "./Components/OrderList/OrderList";
-import Cart from "./Components/Cart/Cart";
-import Admin from "./Components/Dashboard/Admin";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Layout from "./Components/Layout";
+import ComputerProduct from "./Components/ComputerProduct";
+import SignupForm from "./Components/SignupForm";
+import Footer from "./Components/Footer";
+import ProductList from "./Components/ProductList";
+import AllProducts from "./Components/AllProducts";
+import AllOrders from "./Components/AllOrders";
+import OrderList from "./Components/OrderList";
+import Cart from "./Components/Cart";
+import Admin from "./Components/Admin";
 
 
 function App() {

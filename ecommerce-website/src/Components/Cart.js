@@ -1,7 +1,7 @@
 import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
-import {addToCart, clearCart, decreaseCart, getTotals, removeFromCart} from "../../Features/cartSlice";
+import {addToCart, clearCart, decreaseCart, getTotals, removeFromCart} from "../Features/cartSlice";
 
 function Cart() {
 
@@ -33,7 +33,7 @@ function Cart() {
                 <div className="cart-empty">
                     <p>Your cart is currently empty </p>
                     <div className="start-shopping">
-                        <Link to="/">
+                        <Link to="/productlist">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                  stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -58,9 +58,10 @@ function Cart() {
                         cart.cartItems.map((cartItem) => (
                             <div className="cart-item" key={cartItem.id}>
                                 <div className="cart-product">
-                                    <img src={cartItem.image} alt={cartItem.name} />
+                                    <img src={cartItem.image} alt={cartItem.name}/>
                                     <div>
                                         <h3>{cartItem.name}</h3>
+                                        <h3>{cartItem.image}</h3>
                                         <p>{cartItem.description}</p>
                                         <button onClick={() => handleRemoveFromCart(cartItem)}>
                                             Remove
