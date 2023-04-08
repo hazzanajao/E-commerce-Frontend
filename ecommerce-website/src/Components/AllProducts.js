@@ -44,7 +44,7 @@ function AllProducts() {
                             <h3>{product.name}</h3>
                             <h5>{product.category}</h5>
                             <h6 className="price">${product.price}</h6>
-                            <h3>{product.image}</h3>
+                            <img src={product.image} alt={product.name}/>
                             <div className="details">
                                 <span>{product.description}</span>
                             </div>

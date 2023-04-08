@@ -322,7 +322,8 @@ li {
 }
 .product h3 {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 700;
+    paddig:10px;
 }
 .product img {
     width: 80%;

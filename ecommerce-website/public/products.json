@@ -3,7 +3,8 @@
   {
     "name":"Lenovo",
     "price":"550",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"computer",
     "variants":"silver",
     "sizes":"14 inches"
@@ -12,7 +13,8 @@
 
     "name":"Mac Pro",
     "price":"1250",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"computer",
     "variants":"silver",
     "sizes":"18 inches"
@@ -20,7 +22,8 @@
   {
     "name":"Dell",
     "price":"450",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"computer",
     "variants":"silver",
     "sizes":"20 inches"
@@ -29,7 +32,8 @@
 
     "name":"Samsung",
     "price":"570",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"computer",
     "variants":"silver",
     "sizes":"22 inches"
@@ -37,7 +41,8 @@
   {
     "name":"Samsung Galaxy",
     "price":"250",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"I Pad",
     "variants":"silver",
     "sizes":"10 inches"
@@ -46,7 +51,8 @@
 
     "name":"IPhone",
     "price":"750",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"8 inches"
@@ -55,7 +61,8 @@
 
     "name":"OnePlus",
     "price":"520",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"6 inches"
@@ -64,7 +71,8 @@
 
     "name":"Nokia",
     "price":"340",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"11 inches"
@@ -73,7 +81,8 @@
 
     "name":"OnePlus",
     "price":"250",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"6 inches"
@@ -82,7 +91,8 @@
 
     "name":"Nokia",
     "price":"220",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"11 inches"
@@ -91,7 +101,8 @@
 
     "name":"OnePlus",
     "price":"570",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"6 inches"
@@ -100,7 +111,8 @@
 
     "name":"Nokia",
     "price":"580",
-    "description": "This computer  has core i7 processor, it is suitable for all complex computational analysis",
+    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "description": "This Iphone  is very reliable",
     "category":"Phone",
     "variants":"silver",
     "sizes":"11 inches"

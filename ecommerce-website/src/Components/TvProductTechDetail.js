@@ -6,8 +6,7 @@ import 'ag-grid-community/styles/ag-theme-alpine.css';
 
 function TvProductTechDetail() {
 
-    {/* Option 1 : Not efficient,  */
-    }
+    {/* Option 1 : Not efficient,  */}
     const [rowData] = useState([
         {No: "1", Parts: "Processor Brand", Descriptions: "Intel"},
         {No: "2", Parts: "Processor Type", Descriptions: "Core i7"},
