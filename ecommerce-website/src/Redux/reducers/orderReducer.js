@@ -16,7 +16,7 @@ export const orderReducer = (state =initialState, {type, payload} ) => {
 const selectedOrdersReducer = (state = {}, { type, payload }) => {
     console.log(type);
     switch (type) {
-        case ActionTypes.SELECTED_ORDER:
+        case ActionTypes.SELECTED_ORDERS:
             return { ...state, ...payload };
         case ActionTypes.REMOVE_SELECTED_ORDER:
             return {};

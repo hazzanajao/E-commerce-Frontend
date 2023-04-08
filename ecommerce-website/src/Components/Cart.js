@@ -33,7 +33,7 @@ function Cart() {
                 <div className="cart-empty">
                     <p>Your cart is currently empty </p>
                     <div className="start-shopping">
-                        <Link to="/productlist">
+                        <Link to="/allProducts">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                  stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -61,7 +61,6 @@ function Cart() {
                                     <img src={cartItem.image} alt={cartItem.name}/>
                                     <div>
                                         <h3>{cartItem.name}</h3>
-                                        <h3>{cartItem.image}</h3>
                                         <p>{cartItem.description}</p>
                                         <button onClick={() => handleRemoveFromCart(cartItem)}>
                                             Remove
@@ -95,7 +94,7 @@ function Cart() {
                             <p>Taxes and shipping calculated at checkout</p>
                             <button>Check out</button>
                             <div className="continue-shopping">
-                                <Link to="/productlist">
+                                <Link to="/allProducts">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="20"

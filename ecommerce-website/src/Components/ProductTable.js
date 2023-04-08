@@ -24,17 +24,19 @@ function ProductTable() {
 
                     <ListItem disablePadding>
                         <ListItemButton>
+                        <a href="/allProducts">
                             <ListItemText primary="All Products"/>
+                        </a>
                         </ListItemButton>
                     </ListItem>
-
 
                     <ListItem disablePadding>
                         <ListItemButton>
-                            <ListItemText primary="Phones Accessories"/>
+                            <a href="/iPhoneProducts">
+                                <ListItemText primary="IPhones"/>
+                            </a>
                         </ListItemButton>
                     </ListItem>
-
 
                     <ListItem disablePadding>
                         <ListItemButton>
@@ -45,21 +47,17 @@ function ProductTable() {
 
                     <ListItem disablePadding>
                         <ListItemButton>
-                            <ListItemText primary="Computer Accessories"/>
+                            <ListItemText primary="TVs"/>
                         </ListItemButton>
                     </ListItem>
 
-                    <ListItem disablePadding>
-                        <ListItemButton>
-                            <ListItemText primary="Power Banks"/>
-                        </ListItemButton>
-                    </ListItem>
 
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Ipads"/>
                         </ListItemButton>
                     </ListItem>
+
                     <ListItem disablePadding>
                         <ListItemButton>
                             <ListItemText primary="Computer Accessories"/>
@@ -71,12 +69,12 @@ function ProductTable() {
                         </ListItemButton>
                     </ListItem>
 
-                    <ListItem disablePadding>
+                    <ListItem disablePadding >
                         <ListItemButton>
                             <ListItemText primary="Ipads"/>
                         </ListItemButton>
                     </ListItem>
-                    <ListItem disablePadding>
+                    <ListItem disablePadding >
                         <ListItemButton>
                             <ListItemText primary="Power Banks"/>
                         </ListItemButton>

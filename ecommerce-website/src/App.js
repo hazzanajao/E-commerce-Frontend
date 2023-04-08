@@ -13,6 +13,7 @@ import AllOrders from "./Components/AllOrders";
 import OrderList from "./Components/OrderList";
 import Cart from "./Components/Cart";
 import Admin from "./Components/Admin";
+import IphoneProducts from "./Components/IphoneProducts";
 
 
 function App() {
@@ -25,12 +26,12 @@ function App() {
                   <Route path="/index" element={<Home/>}/>
                   <Route path="/tvproduct" element={<ComputerProduct/>}/>
                   <Route path="/signupform" element={<SignupForm/>}/>
-                  <Route path="/productList" element={<ProductList/>}/>
                   <Route path="/allproducts" element={<AllProducts/>}/>
                   <Route path="/allorders" element={<AllOrders/>}/>
                   <Route path="/orderList" element={<OrderList/>}/>
                   <Route path="/cart" element={<Cart/>} />
                   <Route path="/admin" element={<Admin/>} />
+                  <Route path="/iPhoneProducts" element={<IphoneProducts/>} />
               </Routes>
           </BrowserRouter>
           <Footer/>
@@ -39,3 +40,8 @@ function App() {
 }
 
 export default App;
+
+{/*Removed based on modification !
+Removed usage as components earlier implemented and rendered it allproduct directly
+  <Route path="/productList" element={<ProductList/>}/>
+*/}

@@ -16,7 +16,7 @@ export const setOrders = (orders) =>{
 export const selectedOrders = (order) =>{
 
     return {
-        type: ActionTypes.SELECTED_ORDER,
+        type: ActionTypes.SELECTED_ORDERS,
         payload:order
     }
 }

@@ -4,28 +4,28 @@ import {ActionTypes} from "../constants/action-types";
 
 const initialState = {
 
-products : [ ]
+    iPhones : [ ]
 }
 
-export const productReducer = (state =initialState, {type, payload} ) => {
+export const iPhoneReducer = (state =initialState, {type, payload} ) => {
 
     switch (type){
-        case ActionTypes.SET_PRODUCTS:
-            return { ...state, products: payload };
+        case ActionTypes.SET_IPHONES:
+            return { ...state, iPhones: payload };
         default:
             return state;
     }
 
 }
 
-const selectedProductsReducer = (state = {}, { type, payload }) => {
+const selectedIphonesReducer = (state = {}, { type, payload }) => {
 
     console.log(type);
 
     switch (type) {
-        case ActionTypes.SELECTED_PRODUCTS:
+        case ActionTypes.SELECTED_IPHONES:
             return { ...state, ...payload };
-        case ActionTypes.REMOVE_SELECTED_PRODUCT:
+        case ActionTypes.REMOVE_SELECTED_IPHONE:
             return {};
         default:
             return state;
@@ -33,4 +33,4 @@ const selectedProductsReducer = (state = {}, { type, payload }) => {
 
 }
 
-export default selectedProductsReducer;
+export default selectedIphonesReducer;

@@ -52,7 +52,7 @@ function ProductQuantitySelection() {
                             }} >Add to Basket
                     </button>
                     */}
-                    <a href="/productlist">
+                    <a href="/allproducts">
                         <button className="secondary" type="cancel"
                                 style={{
                                     padding: "8px",
