@@ -2,18 +2,19 @@ import React from "react"
 import {BrowserRouter, Routes, Route, Link, Redirect} from "react-router-dom"
 import './main.css';
 import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
+import Home from "./Pages/Home";
 import Layout from "./Components/Layout";
 import ComputerProduct from "./Components/ComputerProduct";
-import SignupForm from "./Components/SignupForm";
+import SignupForm from "./Pages/SignupForm";
 import Footer from "./Components/Footer";
 import ProductList from "./Components/ProductList";
 import AllProducts from "./Components/AllProducts";
 import AllOrders from "./Components/AllOrders";
 import OrderList from "./Components/OrderList";
 import Cart from "./Components/Cart";
-import Admin from "./Components/Admin";
+import Admin from "./Pages/Admin";
 import IphoneProducts from "./Components/IphoneProducts";
+import Login from "./Pages/Login";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
                   <Route path="/orderList" element={<OrderList/>}/>
                   <Route path="/cart" element={<Cart/>} />
                   <Route path="/admin" element={<Admin/>} />
+                  <Route path="/login" element={<Login/>} />
                   <Route path="/iPhoneProducts" element={<IphoneProducts/>} />
               </Routes>
           </BrowserRouter>
