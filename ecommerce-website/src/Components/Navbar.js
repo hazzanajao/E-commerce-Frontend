@@ -5,8 +5,11 @@ import {useSelector} from "react-redux";
 import BaseInput from "./BaseInput";
 import logo from "../assets/images/logo.svg"
 
-function Navbar() {
+function Navbar({ user }) {
 
+    const logout = () => {
+        window.open("http://localhost:3200/auth/logout", "_self");
+    };
     const [showNavLinks, setShowNavLinks] = useState(false);
     const linksContainerRef = useRef(null);
     const navRef = useRef(null);
@@ -29,7 +32,7 @@ function Navbar() {
     return (
         <nav>
             <div className="nav-center">
-                <div className="nav-header">
+                <div className="nav-header" to="/">
                     <img src={logo} onChange="logo-profile" alt="logo"/>
                 </div>
 
@@ -42,6 +45,8 @@ function Navbar() {
 
                 <div className="links-container" ref={linksContainerRef}>
                     <ul className="links" ref={navRef}>
+
+
                         <li>
                             <a href="/">
                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +84,29 @@ function Navbar() {
                             </a>
                         </li>
 
+
+                        {user ? (
+                            <ul className="list">
+                                <li className="listItem">
+                                    <img
+                                        src={user.photos[0].value}
+                                        alt=""
+                                        className="avatar"
+                                    />
+                                </li>
+                                <li className="listItem">{user.displayName}</li>
+
+
+                                <li className="listItem" onClick={logout}>
+                                    Logout
+                                </li>
+                            </ul>
+                        ) : (
+                            <a href="/login">
+                                Login
+                            </a>
+                        )}
+
                         <li>
                             <a href="/allproducts">
                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -93,8 +121,8 @@ function Navbar() {
                                 User
                             </a>
                         </li>
-                        <li>
 
+                        <li>
                             <a href="/login">
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                      fill="none"
@@ -109,7 +137,6 @@ function Navbar() {
                                 Admin
                             </a>
                         </li>
-
                         <li>
                             <a href="/cart">
                                 <div className="nav-bag">
