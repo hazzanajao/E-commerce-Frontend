@@ -35,7 +35,6 @@ function AllProducts() {
                 <div className="admin-text">
                     <h2>All Products</h2>
                 </div>
-                <br/>
 
                 <div className="grid grid-cols-4 gap-4">
                     {products &&

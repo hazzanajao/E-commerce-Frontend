@@ -184,13 +184,13 @@ nav {
 }
 
 .nav-toggle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--clr-white);
     background: transparent;
     border-color: transparent;
     transition: var(--transition);
-    box-shadow: 0 0 2px white;
-    border-radius: 5px;
+    box-shadow: 0 0 4px #00235B;
+    border-radius: 0;
     cursor: pointer;
 }
 
@@ -624,6 +624,12 @@ li {
     .cart-summary .clear-btn {
         margin-bottom: 2rem;
     }
+    .admin-text h2{
+        border-top: 2px solid crimson;
+        text-align: center;
+        background-color: lightgray;
+        font-size: large;
+    }
 }
 
 
@@ -650,6 +656,7 @@ li {
 
     .links-container {
         height: auto !important;
+
     }
 
     .links {

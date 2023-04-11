@@ -117,8 +117,9 @@ function Navbar({ user }) {
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5
                                     0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112
                                     21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+
                                 </svg>
-                                User
+
                             </a>
                         </li>
 
@@ -134,7 +135,6 @@ function Navbar({ user }) {
                                         10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25
                                         0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/>
                                 </svg>
-                                Admin
                             </a>
                         </li>
                         <li>
@@ -142,8 +142,8 @@ function Navbar({ user }) {
                                 <div className="nav-bag">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        width="35"
-                                        height="35"
+                                        width="25"
+                                        height="25"
                                         fill="currentColor"
                                         className="bi bi-handbag-fill"
                                         viewBox="0 0 16 16"

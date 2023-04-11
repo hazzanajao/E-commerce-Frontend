@@ -7,7 +7,7 @@ function BaseInput(){
 
 
     return(
-        <InputBase className="input-button" style={{ width:"100%", border:"1px solid gray", borderRadius:"5px",backgroundColor:"white",  }}
+        <InputBase className="input-button" style={{ width:"80%",marginRight:"5px", border:"1px solid gray", borderRadius:"5px",backgroundColor:"white",  }}
              placeholder=" Search "
              inputProps={{ 'aria-label': 'search google ' }}
         >
