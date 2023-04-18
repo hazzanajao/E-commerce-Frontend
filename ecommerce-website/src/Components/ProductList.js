@@ -1,4 +1,5 @@
-{/*import React, { useEffect } from "react";
+{
+  /*import React, { useEffect } from "react";
 import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";
 import { setProducts } from "../Redux/actions/productActions";
@@ -18,13 +19,15 @@ function ProductList(){
             })
         dispatch(setProducts(response.data));
     }
-
+   
     useEffect(() => {
         fetchProducts();
     }, []);
-    */}
+    */
+}
 
-    {/* 2: New concept for fetching data
+{
+  /* 2: New concept for fetching data
     fetch( 'http://localhost:3000/products.json')
         .then(resp => resp.json())
         .then(data => dispatch(setProducts(data)))
@@ -40,4 +43,5 @@ function ProductList(){
 
 export default ProductList;
 // This page not needed to be removed
-*/}
+*/
+}
