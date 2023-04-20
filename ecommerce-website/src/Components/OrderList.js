@@ -23,10 +23,6 @@ function OrderList() {
     fetchOrders()
   }, [])
 
-  {
-    /*Implementation without useEffect */
-  }
-
   console.log('Orders : ', orders)
 
   return (

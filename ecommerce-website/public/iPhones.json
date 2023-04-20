@@ -1,14 +1,14 @@
 [
-
   {
     "name":"iPhone 1",
-    "price":"850",
-    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "price":"350",
+    "image" : "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg?w=1380&t=st=1680940403~exp=1680941003~hmac=58390ca4c7b22e5673e6774f76c6ac9351abc981431446df7bbb0ec344a4ca91",
     "description": "This Iphone  is very reliable",
     "category":"Iphone",
     "variants":"silver",
     "sizes":"8 inches"
   },
+
   {
 
     "name":"iPhone 2",
@@ -68,8 +68,8 @@
   },
   {
     "name":"iPhone 8",
-    "price":"1150",
-    "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=1380&t=st=1680938860~exp=1680939460~hmac=4e45fd7892f80a8f93404c30206f03d19edaa466b3ed5ddd8aa37fc7b1f3510c",
+    "price":"350",
+    "image" : "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg?w=1380&t=st=1680940403~exp=1680941003~hmac=58390ca4c7b22e5673e6774f76c6ac9351abc981431446df7bbb0ec344a4ca91",
     "description": "This Iphone  is very reliable",
     "category":"Iphone",
     "variants":"silver",
